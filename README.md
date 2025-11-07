@@ -19,7 +19,13 @@ Se explica como se puede enviar una imagen por whatsapp como link y que se rende
 ## Donde se puede validar que esta bien la imagen
 
 1. Se puede usar el link de facebook para validar que la imagen este lista para ser compartida
-    [Validar Imagen](https://developers.facebook.com/tools/debug)
+    [Validar en Facebook](https://developers.facebook.com/tools/debug)
+
+2. Para linkedin
+    [Validar en Linkedin](https://www.linkedin.com/post-inspector/)
+
+3. Para Twitter o X
+    [Validar X](https://cards-dev.x.com/validator)
 
 Ejemplo de una imagen aprobada y lista para compartir:
 
