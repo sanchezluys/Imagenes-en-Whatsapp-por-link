@@ -24,3 +24,40 @@ Se explica como se puede enviar una imagen por whatsapp como link y que se rende
 Ejemplo de una imagen aprobada y lista para compartir:
 
 ![alt text](imagen.png)
+
+## Html recomendado con las configuraciones necesarias para OpenGraph
+
+Configuraciones de OG:
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>[Tu Título Aquí]</title>
+
+    <meta property="og:title" content="[Tu Título Aquí]">
+    <meta property="og:description" content="[Escribe tu descripción corta aquí]">
+    <meta property="og:type" content="website">
+    
+    <meta property="og:url" content="[La URL completa de esta página]"> 
+    
+    <meta property="og:image" content="[La URL completa de tu imagen .jpg o .png]">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="[Tu Título Aquí]">
+    <meta name="twitter:description" content="[Escribe tu descripción corta aquí]">
+    <meta name="twitter:image" content="[La URL completa de tu imagen .jpg o .png]">
+    </head>
+<body>
+
+    <h1>[Encabezado de tu Página]</h1>
+    <p>[Contenido de tu página aquí].</p>
+
+</body>
+</html>
+```
