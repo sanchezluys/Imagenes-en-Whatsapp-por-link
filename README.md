@@ -9,6 +9,7 @@ Se explica como se puede enviar una imagen por whatsapp como link y que se rende
 4. Debe estar alojada en un servidor
 5. Debe estar publica
 6. No puede ser una imagen compartida por google drive
+7. IMPORTANTE: la imagen se puede enviar solo desde la pestaña "BOT RESPONDE" en formato [image](url)
 
 > [!WARNING] 
 > El motivo es técnico, pero sencillo de entender:
