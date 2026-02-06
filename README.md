@@ -9,13 +9,16 @@ Se explica como se puede enviar una imagen por whatsapp como link y que se rende
 4. Debe estar alojada en un servidor
 5. Debe estar publica
 6. No puede ser una imagen compartida por google drive
-7. IMPORTANTE: la imagen se puede enviar solo desde la pestaña "BOT RESPONDE" en formato [image](url)
 
 > [!WARNING] 
 > El motivo es técnico, pero sencillo de entender:
 > Google Drive no da un enlace directo a la imagen: Cuando compartes un enlace de Google Drive, en realidad estás compartiendo un enlace a una página web de Google que muestra tu imagen. 
 > El robot de Facebook no puede "ver" la imagen: El robot (crawler) de Facebook, LinkedIn, etc., necesita un enlace directo que termine en .png o .jpg (como el que tienes ahora). No es lo suficientemente "inteligente" para navegar por la página de vista previa de Google Drive y encontrar la imagen dentro.
 
+> [!WARNING] 
+> Desde Asisteclick:
+> Ya sea con los bots IVR o los Bots GPTs 
+> La imagen se puede enviar solo desde la pestaña "BOT RESPONDE" en formato [ image ] ( url )
 
 ## Donde se puede validar que esta bien la imagen
 
